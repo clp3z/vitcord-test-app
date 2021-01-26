@@ -1,5 +1,4 @@
 # vitcord-test-app
-Vitcord Test App
 
 ## Screenshots
 
