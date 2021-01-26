@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Vitcord</string>
+
+    <!-- ===========================   Fonts  =========================== -->
+
+    <string-array name="fonts">
+        <item>Fonts/Roboto/Roboto-Regular.ttf</item>
+        <item>Fonts/Roboto/Roboto-Medium.ttf</item>
+        <item>Fonts/Roboto/Roboto-Bold.ttf</item>
+        <item>Fonts/Roboto/Roboto-Black.ttf</item>
+
+        <item>Fonts/ProximaNova/ProximaNova-Regular.otf</item>
+        <item>Fonts/ProximaNova/ProximaNova-Bold.otf</item>
+        <item>Fonts/ProximaNova/ProximaNova-Extrabold.otf</item>
+        <item>Fonts/ProximaNova/ProximaNova-Black.otf</item>
+    </string-array>
+
+    <!-- ===========================   Placeholder  =========================== -->
+
+    <string name="description_value_placeholder">Cockatoo much house goodness this much gosh and jeez vulture sniffled monumental hey festively and stolid shark crept far behind that for goodness regal wide pre-set ouch invaluably bombastically a collective bred gave sent darn robin this and less much lavish self-consciously pending listlessly crud and before above jellyfish.</string>
+    <string name="number_value_placeholder">13</string>
+    <string name="name_value_placeholder">Frederic Digges</string>
+
+    <!-- ===========================   Labels  =========================== -->
+
+    <string name="follow_label">Follow</string>
+    <string name="home_label">Home</string>
+    <string name="biography_label">Biography</string>
+    <string name="profile_label">Profile</string>
+    <string name="following_label">Following</string>
+    <string name="my_friends_label">My Friends</string>
+    <string name="my_profile_label">My Profile</string>
+
+    <string name="following_placeholder">Following (%1$d)</string>
+    <string name="name_placeholder">%1$s %2$s</string>
+    <string name="number_placeholder">%1$d</string>
+
+</resources>

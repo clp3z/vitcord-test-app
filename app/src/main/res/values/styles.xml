@@ -1,0 +1,125 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/black</item>
+    </style>
+
+    <!-- TabLayout -->
+    <style name="TabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="android:background">@color/white_translucent</item>
+    </style>
+
+    <!-- Tab TextAppearance -->
+    <style name="TabTextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/tab_title</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="typeface">roboto_black</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/blue_contrast</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="typeface">roboto_black</item>
+    </style>
+
+    <!-- EditText -->
+    <style name="EditTextStyle">
+        <item name="android:layout_height">35dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="android:singleLine">true</item>
+        <item name="typeface">roboto_regular</item>
+    </style>
+
+    <!-- RadioButton -->
+    <style name="RadioButtonActionStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/radio_button</item>
+        <item name="typeface">roboto_medium</item>
+    </style>
+
+    <style name="RadioButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/radio_button</item>
+        <item name="android:background">@drawable/bg_radio_button</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="typeface">proxima_nova_bold</item>
+    </style>
+
+    <!-- TextView General -->
+    <style name="TextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewStyle.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/dark_jungle_green</item>
+        <item name="typeface">proxima_nova_extra_bold</item>
+    </style>
+
+    <!-- TextView Subheading -->
+    <style name="TextViewStyle.Subheading">
+        <item name="android:textSize">16sp</item>
+        <item name="typeface">proxima_nova_extra_bold</item>
+    </style>
+
+    <style name="TextViewStyle.Subheading.Grey">
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="typeface">proxima_nova_bold</item>
+    </style>
+
+    <style name="TextViewStyle.Subheading.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- TextView Body -->
+    <style name="TextViewStyle.Body">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="typeface">proxima_nova_regular</item>
+    </style>
+
+    <!-- TextView Caption -->
+    <style name="TextViewStyle.Caption">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="typeface">proxima_nova_bold</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="LoadingDialogStyle" parent="android:Theme" >
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+</resources>
